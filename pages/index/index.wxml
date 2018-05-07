@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+
+  <!--功能导航-->
+  <swiper class="main-swpier" indicator-dots="true" indicator-active-color="#73b4ef">
+  <swiper-item class="main-core" wx:for="{{cores}}"  wx:for-item="core" wx:key="id">
+    <block wx:for="{{core}}" wx:key="id">
+      <navigator  class="main-core-item" url="{{'/pages/cores/'+item.id+'/'+item.id}}">
+        <image class="core-item-icon" src="/images/cores/{{item.id}}.png"></image>
+        <text class="core-item-name">{{item.name}}</text>
+      </navigator>
+    </block>
+  </swiper-item >
+  </swiper>
+  <image class="image" src="http://lib.ecust.edu.cn/sites/default/files/2017-03/1e5a40f0-94c3-470d-86e1-2c2e1275ff07.jpg"></image>
+</view>
