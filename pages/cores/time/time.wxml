@@ -1,2 +1,18 @@
 <!--pages/cores/time.wxml-->
-<text>pages/cores/time.wxml</text>
+<view class="container">
+    <view class="table">
+        <view class="tr">
+            <view class="th">馆室</view>
+            <view class="th">地址</view>
+            <view class="th">周一到周五</view>
+            <view class="th">周六、周日</view>
+        </view>
+        <view class="tr" wx:for="{{timelist}}">
+            <view class='td'> {{item.room}} </view>
+            <view class="td"> {{item.location}} </view>
+            <view class="td">{{item.workday}}</view>
+            <view class="td"> {{item.weekends}} </view>
+        </view>
+    </view>
+</view>
+

@@ -1,1 +1,26 @@
 /* pages/cores/time.wxss */
+.table {
+  width: 98%;
+  border-width: medium;
+}
+
+.tr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.th, .td {
+  width: 100%;
+  padding-right: 5px;
+   padding-left: 5px; 
+   margin: 0px; 
+   text-align: center;
+   border-color: #ccccff;
+ 
+}
+
+.th {
+  font-weight: 800;
+  color: #ba5b3e;
+}

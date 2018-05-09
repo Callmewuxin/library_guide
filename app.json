@@ -16,12 +16,10 @@
     "pages/cores/time/time"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#7acfa6",
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "图书馆小白程序",
-    "backgroundColor": "#7acfa6",
-    "backgroundTextStyle": "light",
-    "enablePullDownRefresh": true
+    "navigationBarBackgroundColor": "#f8f8f8",
+    "backgroundColor": "#f8f8f8",
+    "navigationBarTitleText": "图书馆小白程序"
   },
   "tabBar": {
     "color": "#7f848a",
@@ -32,19 +30,19 @@
         "pagePath": "pages/index/index",
         "text": "小白必备",
         "iconPath": "images/index/index.png",
-        "selectedIconPath": "images/index/index@active.png"
+        "selectedIconPath": "images/index/index@select.png"
       },
       {
         "pagePath": "pages/more/more",
         "text": "更多",
-        "iconPath": "images/index/news.png",
-        "selectedIconPath": "images/index/news@active.png"
+        "iconPath": "images/index/more.png",
+        "selectedIconPath": "images/index/more@select.png"
       },
       {
         "pagePath": "pages/user/user",
         "text": "个人中心",
-        "iconPath": "images/index/more.png",
-        "selectedIconPath": "images/index/more@active.png"
+        "iconPath": "images/index/user.png",
+        "selectedIconPath": "images/index/user@select.png"
       }
     ]
   },

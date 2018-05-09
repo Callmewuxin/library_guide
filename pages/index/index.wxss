@@ -1,4 +1,14 @@
 /**index.wxss**/
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result:before{
+    display: none;
+}
+.weui-cell{
+    padding: 12px 15px 12px 35px;
+}
 .container{
   padding-bottom: 0;
   background-color: #f0eff5;
