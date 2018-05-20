@@ -1,18 +1,64 @@
 <!--pages/cores/time.wxml-->
-<view class="container">
+<view class="page">
+    <view class="page__bd">
+        <view class="weui-tab">
+            <view class="weui-navbar">
+                <block wx:for="{{tabs}}" wx:key="*this">
+                    <view id="{{index}}" class="weui-navbar__item {{activeIndex == index ? 'weui-bar__item_on' : ''}}" bindtap="tabClick">
+                        <view class="weui-navbar__title">{{item}}</view>
+                    </view>
+                </block>
+                <view class="weui-navbar__slider" style="left: {{sliderLeft}}px; transform: translateX({{sliderOffset}}px); -webkit-transform: translateX({{sliderOffset}}px);"></view>
+            </view>
+            <view class="weui-tab__panel">
+                <view class="weui-tab__content" hidden="{{activeIndex != 0}}">
     <view class="table">
-        <view class="tr">
+        <view class="tr bg-g">
             <view class="th">馆室</view>
             <view class="th">地址</view>
-            <view class="th">周一到周五</view>
+            <view class="th">工作日</view>
             <view class="th">周六、周日</view>
         </view>
-        <view class="tr" wx:for="{{timelist}}">
+        <block wx:for="{{timelist1}}">
+        <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+            <view class='td' > {{item.room}} </view>
+            <view class="td"> {{item.location}} </view>
+            <view class="td">{{item.workday}}</view>
+            <view class="td"> {{item.weekends}} </view>
+            </view> 
+        <view class="tr" wx:else>
             <view class='td'> {{item.room}} </view>
             <view class="td"> {{item.location}} </view>
             <view class="td">{{item.workday}}</view>
             <view class="td"> {{item.weekends}} </view>
         </view>
+        </block>
     </view>
 </view>
-
+                <view class="weui-tab__content" hidden="{{activeIndex != 1}}">
+    <view class="table">
+        <view class="tr bg-g">
+            <view class="th">馆室</view>
+            <view class="th">地址</view>
+            <view class="th">工作日</view>
+            <view class="th">周六、周日</view>
+        </view>
+        <block wx:for="{{timelist2}}">
+        <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+            <view class='td'> {{item.room}} </view>
+            <view class="td"> {{item.location}} </view>
+            <view class="td">{{item.workday}}</view>
+            <view class="td"> {{item.weekends}} </view>
+            </view> 
+        <view class="tr" wx:else>
+            <view class='td'> {{item.room}} </view>
+            <view class="td"> {{item.location}} </view>
+            <view class="td">{{item.workday}}</view>
+            <view class="td"> {{item.weekends}} </view>
+        </view>
+        </block>
+    </view></view>
+            </view>
+        </view>
+    </view>
+</view>

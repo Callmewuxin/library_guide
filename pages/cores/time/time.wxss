@@ -1,25 +1,49 @@
 /* pages/cores/time.wxss */
+page{
+    background-color: #F8F8F8;
+    font-size: 16px;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+}
 .table {
-  width: 98%;
-  border-width: medium;
+  border-color:#ccccff;
+  display: table;
 }
-
 .tr {
-  width: 100%;
   display: flex;
-  justify-content: space-between;
-}
-
-.th, .td {
   width: 100%;
-  padding-right: 5px;
-   padding-left: 5px; 
-   margin: 0px; 
-   text-align: center;
-   border-color: #ccccff;
+  justify-content: center;
+  height: 3rem;
+  align-items: center;
+  border-right:1rpx solid #ccccff;
 }
-
+.td {
+    width:50%;
+    justify-content: center;
+    text-align: center;
+     border-right:1rpx solid #ccccff;
+     display: table-cell;
+}
+.bg-w{
+  background: blueviolet;
+}
+.bg-g{
+  background: #E6F3F9;
+}
 .th {
-  font-weight: 800;
-  color: #ba5b3e;
+  width: 100%;
+  justify-content: center;
+  color: #b45b3e;
+  align-items: center;
+  border-right:1rpx solid #ccccff;
+  display: table-cell;
+}
+.page__bd{
+    height: 100%;
+}
+.page__bd{
+    padding-bottom: 0;
+}
+.weui-tab__content{
+    padding-top: 8px;
+    text-align: center;
 }
