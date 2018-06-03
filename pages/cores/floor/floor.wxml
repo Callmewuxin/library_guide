@@ -2,15 +2,17 @@
     <view class="page__hd">
         <view class="page__desc">奉贤校区图书馆为图文信息中心大楼其中的一到六层，藏书60万册，设置各类读者作为2500多个。</view>
     </view>
+    <view class="line"></view>
     <view class="page__bd">
         <view class="weui-article">
-           
+
             <view class="weui-article__section">
                 <view class="weui-article__section">
                      <view class="weui-article__h1">First Floor</view>
             <view class="weui-article__p">
                         一楼设置总服务台，处理读者服务的各项事务，有检索、借还、阅览、休闲的功能。</view>
                 </view>
+                  
             </view>
             <view class="weui-article__section">
                 <view class="weui-article__section">
@@ -18,12 +20,24 @@
             <view class="weui-article__p">
                         二楼为期刊报纸阅览和工具书阅览.</view>
                 </view>
+                <view class="weui-article__p">
+                        <image class="weui-article__img" src="/images/cores/2floor.jpg" mode="aspectFit" style="height: 180px" />
+                        </view>
             </view>
             <view class="weui-article__section">
                 <view class="weui-article__section">
                         <view class="weui-article__h1">Third and Above</view>
             <view class="weui-article__p">
-                        三楼以上为借阅合一的各类阅览室和数字资源阅览区，其中四楼有小影厅。</view>
+                        三楼以上为借阅合一的各类阅览室和数字资源阅览区.</view>
+                        <view class="weui-article__p">
+                        <image class="weui-article__img" src="/images/cores/3floor1.jpg" mode="aspectFit" style="height: 180px" />
+                        <image class="weui-article__img" src="/images/cores/3floor2.jpg" mode="aspectFit" style="height: 180px" />
+                        <image class="weui-article__img" src="/images/cores/3floor4.jpg" mode="aspectFit" style="height: 180px" />
+                        </view>
+                          <view class="weui-article__p">
+                         其中四楼有小影厅。.
+                        <image class="weui-article__img" src="/images/cores/3floor3.jpg" mode="aspectFit" style="height: 180px" />
+                        </view>
                 </view>
             </view>
               <view class="weui-article__section">

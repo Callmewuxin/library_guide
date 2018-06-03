@@ -1,2 +1,14 @@
 <!--pages/cores/read.wxml-->
-<text>pages/cores/read.wxml</text>
+<view  class='result'>
+      <text space="nbsp">找到可使用的电脑→在电脑上输入想要借阅的书籍</text>
+    </view>
+    <image class="image_f1" src="/images/b.jpg" mode="aspectFill">
+</image>
+    <view  class='result'>
+      <text space="nbsp">点击搜索后根据指引找到想借的书</text>
+    </view>
+    <view  class='result'>
+      <text space="nbsp">放到借书机上根据提示操作</text>
+    </view>
+    <image class="image_f2" src="/images/a.jpg" mode="widthfix">
+</image>

@@ -1,2 +1,39 @@
-<!--pages/cores/e.wxml-->
-<text>pages/cores/e.wxml</text>
+<view class="page">
+    <view class="page__hd">
+        <view class="page__desc">本馆注册读者因教学、科研需要，对本馆未入藏的中外文献（如图书、期刊、专利、标准、会议论文、学位论文等），可向我馆提出馆际互借、互复、互询的申请。</view>
+    </view>
+    <view class="line"></view>
+    <view class="page__bd">
+        <view class="weui-article">
+
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                     <view class="weui-article__h1">服务说明</view>
+            <view class="weui-article__p">
+                        •	馆际互借的文献，除图书可提供原件，其余一般只提供复印件。</view>
+                        <view class="weui-article__p">
+                     •	馆际互借委托者应遵守文献借出单位的有关文献借阅的规章制度。</view> 
+                       <view class="weui-article__p">
+                    •	馆际互借的范围是所有可在网上查到的文献收藏单位。</view> 
+                        <view class="weui-article__p">
+             •	本馆注册读者可获得本馆提供的免费馆际互借服务，但复印费、邮寄费以及借出馆收取的费用等，均由委托者承担；校外读者须代文献查询费5.00元/件，其他费用与本馆读者一样。</view> 
+                </view>
+                  
+            </view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                        <view class="weui-article__h1">提交方式</view>
+            <view class="weui-article__p">
+                        •	点击网址：http://lib.ecust.edu.cn/zh-hans/borrow/apply进行提交</view>
+                </view>
+            </view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                        <view class="weui-article__h1">联系方式</view>
+            <view class="weui-article__p">
+                       地 点：64252484</view>
+                       </view>
+            </view>
+        </view>
+    </view>
+</view>

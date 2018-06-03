@@ -6,14 +6,31 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    movies:[
+      {url:'/images/movie/3.jpg'},
+      {url: '/images/movie/4.jpg'},
+      {url: '/images/movie/5.jpg'},
+    ],
+
+    // notice: [
+    //   {安静},
+    //   {卫生},
+    // ],
+    listData:[
+      { "time": "1", "Monday": "1", "Tuesday": "1", "Wednesday": "1", "Thursday": "1", "Friday": "1",},
+      { "time": "2", "Monday": "1", "Tuesday": "1", "Wednesday": "1", "Thursday": "1", "Friday": "1",},
+      { "time": "3", "Monday": "1", "Tuesday": "1", "Wednesday": "1", "Thursday": "1", "Friday": "1",},
+      { "time": "4", "Monday": "1", "Tuesday": "1", "Wednesday": "1", "Thursday": "1", "Friday": "1", },
+      { "time": "5", "Monday": "1", "Tuesday": "1", "Wednesday": "1", "Thursday": "1", "Friday": "1", },
+      { "time": "6", "Monday": "1", "Tuesday": "1", "Wednesday": "1", "Thursday": "1", "Friday": "1", }
+    ]
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
-  
+  onLoad: function () {
+    console.log('onload')
   },
 
   /**

@@ -6,9 +6,18 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    photos: [
+      { url: 'https://wxt.sinaimg.cn/thumb300/006xt5Zggy1fre9carq50j31kw23vb2a.jpg' },
+      { url: 'https://wxt.sinaimg.cn/thumb300/006xt5Zggy1fre9ctv90ej31kw23vu0x.jpg' },
+      { url: 'https://wxt.sinaimg.cn/thumb300/006xt5Zggy1fre9cti0ehj31kw23vx6p.jpg' },
+      { url: 'https://wxt.sinaimg.cn/thumb300/006xt5Zggy1fre9cs2b26j31kw23ve81.jpg' }
+    ],
+    indicatorDots: true,
+    autoplay: true,
+    interval: 3000,
+    duration: 3000  
   },
-
+  
   /**
    * 生命周期函数--监听页面加载
    */

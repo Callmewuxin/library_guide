@@ -1,2 +1,65 @@
 <!--pages/cores/movie.wxml-->
-<text>pages/cores/movie.wxml</text>
+<view class='navigator'>小影厅</view>
+<swiper class='swiper' indicator-dots='true' autoplay='true' interval='5000' duration='1000'>
+  <block wx:for='{{movies}}' wx:for-index='index'>
+    <swiper-item>
+      <image src='{{item.url}}' class='slide-image' mode='aspectFill'></image>
+    </swiper-item>
+  </block>
+</swiper>
+<view>
+
+  <view class='block bg1' >位置：    图书馆三楼、四楼和五楼的西北角</view>
+
+  <view class='block bg2'>
+    <text>开放时间：</text>
+    <text>周一到周日，图书馆早上开放时开始播放</text>
+    <text>直至当天播放内容结束，通常中午结束播放</text>
+  </view>
+
+  <view class='block bg1'>
+    <text>播放内容：</text>
+    <text>三楼：上海电视台外语频道或中央电视台外语频道</text>
+    <text>四楼和五楼：纪录片和公开课</text>
+    <text>具体播放内容可能有变动</text>
+  </view>
+
+  <view class='block bg2'>
+    <text>注意事项：</text>
+    <text></text>
+  </view>
+</view>
+
+
+ 
+<!-- <view>
+  <view class='table'>
+    <view class='tr'>
+      <view class='th'>开放时间</view>
+      <view class='th'>周一</view>
+      <view class='th'>周二</view>
+      <view class='th'>周三</view>
+      <view class='th'>周四</view>
+      <view class='th'>周五</view>
+    </view>
+    <block wx:for="{{listData}}" wx:key="{{time}}">
+      <view class='tr bg-1' wx:if="{{index % 2 ==0}}">
+        <view class='td'>{{item.time}}</view>
+        <view class='td'>{{item.Monday}}</view>
+        <view class='td'>{{item.Tuesday}}</view>
+        <view class='td'>{{item.Wednesday}}</view>
+        <view class='td'>{{item.Thursday}}</view>
+        <view class='td'>{{item.Friday}}</view>
+      </view>
+      <view class='tr bg-2' wx:else>
+        <view class='td'>{{item.time}}</view>
+        <view class='td'>{{item.Monday}}</view>
+        <view class='td'>{{item.Tuesday}}</view>
+        <view class='td'>{{item.Wednesday}}</view>
+        <view class='td'>{{item.Thursday}}</view>
+        <view class='td'>{{item.Friday}}</view>
+      </view>
+    </block>
+  </view> 
+
+</view> -->

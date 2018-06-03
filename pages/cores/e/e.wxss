@@ -1,1 +1,6 @@
-/* pages/cores/e.wxss */
+.line
+{
+  width:100%;
+  height:2rpx;
+  background:#aaa;
+}/* pages/cores/e.wxss */

@@ -1,1 +1,32 @@
 /* pages/cores/discuss.wxss */
+.item{
+    height:60rpx;
+    width:boxsizing;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 50rpx;
+    padding-top: 30rpx;
+    color:#000000;
+}
+.text{
+    text-indent: 50rpx;
+    text-align: left; 
+    font-size: 25rpx;
+}
+.slide-image{
+    width: 100%;
+    height: 100%;
+}
+.swiper {
+  height: 500rpx;
+  width: 100%;
+}
+.image_p1 {
+      clear: both;
+      display: block;
+      margin: auto;
+      margin-top: 0rpx;
+      margin-bottom: 0rpx;
+      width: 100%
+    }

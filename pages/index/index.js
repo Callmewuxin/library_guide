@@ -12,7 +12,7 @@ Page({
         { id: 'read',name: '借阅功能' },
         { id: 'computer',name: '机房' },
         { id: 'movie',name: '小影厅' },
-        { id: 'e',name: 'e通道'},
+        { id: 'e',name: '馆际互借'},
         { id: 'discuss',name: '研讨间' },
         { id:'floor', name: '楼层介绍' },
         { id:'chair' ,name: '学期讲座'},

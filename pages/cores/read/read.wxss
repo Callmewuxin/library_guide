@@ -1,1 +1,22 @@
 /* pages/cores/read.wxss */
+.result {
+      overflow-x: scroll;
+      margin: 10px;
+      padding: 10px;
+      font-size: 14px;
+      border-radius: 5px;
+    }
+   .image_f1 {
+      clear: both;
+      display: block;
+      margin: auto;
+      margin-top: 0rpx;
+      margin-bottom: 0rpx;
+    }
+    .image_f2 {
+      margin: auto;
+      margin-top: 0rpx;
+      margin-bottom: 0rpx;
+    
+    }
+   
