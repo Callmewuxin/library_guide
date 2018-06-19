@@ -1,2 +1,24 @@
 <!--pages/cores/rules.wxml-->
-<text>pages/cores/rules.wxml</text>
+<view class="section">
+<view class="bc_dvd"></view>
+  <view class="section__title bc_title">
+  图书馆规章制度</view>
+  <view class="bc_dvd"></view>
+  <view class="bc_dvd2"></view>
+  <view class="flex-wrp" style="flex-direction:column;">
+    <view class="flex-item bc_green"><button bindtap='gotoa'>入馆注意事项</button></view>
+    <view class="bch"></view>
+    <view class="flex-item bc_red"><button bindtap='gotob'>借阅规则</button></view>
+    <view class="bch"></view>
+    <view class="flex-item bc_blue"><button bindtap='gotoc'>违规处理</button></view>
+    <view class="bch"></view>    
+    <view class="flex-item bc_blue"><button bindtap='gotod'>阅览座位管理规则</button></view>
+        <view class="bch"></view>        
+    <view class="flex-item bc_blue"><button bindtap='gotoe'>电子阅览室规则</button></view>
+        <view class="bch"></view>     
+         <view class="flex-item bc_blue"><button bindtap='gotof'>书包箱使用规则</button></view>
+        <view class="bch"></view>  
+         <view class="flex-item bc_blue"><button bindtap='gotog'>会议室研讨室等使用规则</button></view>
+        <view class="bch"></view>                 
+  </view>
+</view>

@@ -1,1 +1,37 @@
 /* pages/cores/computer.wxss */
+.viewclass{  
+  height: 60rpx;  
+  width: boxsizing;    
+  display: flex;  
+  flex-direction: row;  
+  justify-content: center;  
+  font-size: 50rpx;
+  padding-top: 30rpx;
+  color: #87CEEB;
+}
+
+.text{
+  text-align: center;
+}
+
+.image{
+  clear: both; 
+  display: block; 
+  margin:5px auto 5px auto;
+}
+
+.image2{
+  transform: rotate(-90deg);
+  clear: both; 
+  display: block; 
+  margin:50px auto 5px auto;
+}
+
+.imagetext{    
+  width: boxsizing;    
+  display: flex;  
+  flex-direction: row;  
+  justify-content: center;  
+  font-size: 25rpx;
+  color: #C0C0C0;
+}

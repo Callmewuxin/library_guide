@@ -1,5 +1,5 @@
 <!--pages/cores/movie.wxml-->
-<view class='navigator'>小影厅</view>
+
 <swiper class='swiper' indicator-dots='true' autoplay='true' interval='5000' duration='1000'>
   <block wx:for='{{movies}}' wx:for-index='index'>
     <swiper-item>

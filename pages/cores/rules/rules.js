@@ -63,5 +63,40 @@ Page({
    */
   onShareAppMessage: function () {
   
-  }
+  },
+   gotoa: function () {
+    wx.navigateTo({
+      url: '../rules/ra',
+    })
+  },
+   gotob: function () {
+     wx.navigateTo({
+       url: '../rules/rb',
+     })
+   },
+    gotoc: function () {
+     wx.navigateTo({
+       url: '../rules/rc',
+     })
+   },
+    gotod: function () {
+      wx.navigateTo({
+        url: '../rules/rd',
+      })
+    },
+    gotoe: function () {
+      wx.navigateTo({
+        url: '../rules/re',
+      })
+    },
+    gotof: function () {
+      wx.navigateTo({
+        url: '../rules/rf',
+      })
+    },
+    gotog: function () {
+      wx.navigateTo({
+        url: '../rules/rg',
+      })
+    },
 })

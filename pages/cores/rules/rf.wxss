@@ -1,0 +1,11 @@
+/* pages/cores/rules/rd.wxss */
+.page-section{
+  margin-bottom: 20rpx;
+}
+.flex-wrp {display: flex;}
+.bch{width:10px; height: 200px;align-content: center;}
+.bc_blue {width:320px; height: 70px;align-content: center;}
+
+.bc_title{width:320px; height:20px;text-align: center;}
+.bc_dvd{width:320px;height:20px; background: rgb(230, 67, 64);}
+.bc_dvd2{width:320px;height:20px;}

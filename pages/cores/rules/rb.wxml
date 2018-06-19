@@ -1,0 +1,33 @@
+<!--pages/cores/rules/rb.wxml-->
+<view class="bc_dvd"></view>
+  <view class="section__title bc_title">
+     借阅规则</view>
+  <view class="bc_dvd"></view>
+  <view class="bc_dvd2"></view>
+  <view class="flex-wrp" style="flex-direction:row;">
+    <view class="flex-item bc_green">
+    借书
+    <view class="flex-item bc_green"> 
+    1）借书册数：本科学生借书册数12册，教职工、研究生借书册数24册，退休教职工借书册数12册, 工程硕士借书册数10册, 本校临时教工、继续教育学院本专科生借书册数5册。上述人员均可借随书光盘2盘，借期一天。
+    </view>
+<view class="flex-item bc_green"> 
+2）借书期限：本科学生借书期限为30天，教职工、研究生借书期限为60天，超期罚款，每天0.02元。具体借阅权限见表。
+</view>
+<view class="flex-item bc_green"> 
+3）所借图书须凭本人校园卡在自助借还机上办理借出手续，若有问题请与服务台联系。</view>
+<view class="flex-item bc_green"> 
+4）读者借阅文献时应当场检查，如发现污损等情况，应及时提请工作人员记录处理。读者对所借图书应爱护保管，如有污损、缺页、遗失等情况，按相关规定赔偿。</view>
+<view class="flex-item bc_green">
+5）请勿将未办理借阅手续的图书带出图书馆。</view>
+<view class="flex-item bc_green"> 
+归还和续借</view>
+<view class="flex-item bc_green"> 
+1）读者借阅的图书应按期在自助借还机上归还，若有问题请与服务台联系，逾期不还者按相关规定处理。</view>
+<view class="flex-item bc_green"> 
+2）图书逾期前如需继续使用，可办理续借手续。未被其他读者预约的图书可续借2次，已被其他读者预约的图书或逾期的图书不能续借。续借手续可自行在网上办理。</view>
+<view class="flex-item bc_green"> 
+3）长假期内到期的图书，归还前不能借阅其他图书，读者可在开学后第一周内到馆归还，由此而产生的逾期费用系统会自动免去。</view>
+<view class="flex-item bc_green"> 4)图书遗失，需及时挂失。</view>
+   
+ </view>
+</view>

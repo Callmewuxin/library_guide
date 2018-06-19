@@ -1,0 +1,15 @@
+<!--pages/cores/rules/rd.wxml-->
+<view class="bc_dvd"></view>
+  <view class="section__title bc_title">
+  电子阅览室规则</view>
+  <view class="bc_dvd"></view>
+  <view class="bc_dvd2"></view>
+  <view class="flex-wrp" style="flex-direction:column;">
+    <view class="flex-item bc_blue">
+  <view class="flex-item bc_blue"> 1.电子阅览室是专供师生学习、利用网络资源的场所。</view>
+<view class="flex-item bc_blue">2.读者入室请刷卡登记，严格一人一机。上机前应先检查设备是否完备，如缺损或运行不正常请及时告知管理员。</view>
+<view class="flex-item bc_blue">3.禁止访问不健康或反动网站，不得在阅览室计算机上玩网络游戏，不得在网上发表不健康的言论和帖子，以及进行黑客攻击，一经发现，严肃处理。</view>
+<view class="flex-item bc_blue">4.爱护本室设施、设备，读者在使用过程中如设备出现故障，需告知管理人员修理，不得自行修理。禁止修改计算机配置文件、删除或修改系统文件、格式化硬盘，设备如有损坏，按规定赔偿。</view>
+<view class="flex-item bc_blue">5. 必须严格遵守国家及学校有关利用互联网管理的各项规定。 </view>
+    </view>
+</view>

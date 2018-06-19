@@ -7,9 +7,9 @@ Page({
    */
   data: {
     movies:[
-      {url:'/images/movie/3.jpg'},
-      {url: '/images/movie/4.jpg'},
-      {url: '/images/movie/5.jpg'},
+      { url:'http://111.231.67.97/images/movie/3.jpg'},
+      { url: 'http://111.231.67.97/images/movie/4.jpg'},
+      { url: 'http://111.231.67.97/images/movie/5.jpg'},
     ],
 
     // notice: [

@@ -21,7 +21,7 @@
                         二楼为期刊报纸阅览和工具书阅览.</view>
                 </view>
                 <view class="weui-article__p">
-                        <image class="weui-article__img" src="/images/cores/2floor.jpg" mode="aspectFit" style="height: 180px" />
+                        <image class="weui-article__img" src="http://111.231.67.97/images/cores/2floor.jpg" mode="aspectFit" style="height: 180px" />
                         </view>
             </view>
             <view class="weui-article__section">
@@ -30,13 +30,13 @@
             <view class="weui-article__p">
                         三楼以上为借阅合一的各类阅览室和数字资源阅览区.</view>
                         <view class="weui-article__p">
-                        <image class="weui-article__img" src="/images/cores/3floor1.jpg" mode="aspectFit" style="height: 180px" />
-                        <image class="weui-article__img" src="/images/cores/3floor2.jpg" mode="aspectFit" style="height: 180px" />
-                        <image class="weui-article__img" src="/images/cores/3floor4.jpg" mode="aspectFit" style="height: 180px" />
+                        <image class="weui-article__img" src="http://111.231.67.97/images/cores/3floor1.jpg" mode="aspectFit" style="height: 180px" />
+                        <image class="weui-article__img" src="http://111.231.67.97/images/cores/3floor2.jpg" mode="aspectFit" style="height: 180px" />
+                        <image class="weui-article__img" src="http://111.231.67.97/images/cores/3floor4.jpg" mode="aspectFit" style="height: 180px" />
                         </view>
                           <view class="weui-article__p">
                          其中四楼有小影厅。.
-                        <image class="weui-article__img" src="/images/cores/3floor3.jpg" mode="aspectFit" style="height: 180px" />
+                        <image class="weui-article__img" src="http://111.231.67.97/images/cores/3floor3.jpg" mode="aspectFit" style="height: 180px" />
                         </view>
                 </view>
             </view>

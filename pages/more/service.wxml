@@ -1,0 +1,60 @@
+<view wx:for="{{list}}" wx:for-item="item" wx:for-index="index">
+   <block wx:if="{{service==item.serviceName}}">
+     <view class="page">
+          
+     <swiper indicator-dots="true" autoplay="true" class="swiper" duration="1000" bindchange="listenSwiper" >
+<!--swiper-item只能包含一个节点再多会自动删除-->
+ <block wx:for='{{item.serviceImg}}' wx:for-item='img'> 
+        <swiper-item>    
+          <image src="{{img}}"mode="aspectFill"/> 
+        </swiper-item>      
+</block>
+</swiper>
+    <view class="line"></view>
+    <view class="page__bd">
+        <view class="weui-article">
+
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                     <view class="weui-article__h1">简介</view>
+            <view class="weui-article__p">
+                        {{item.serviceIntro}}</view>
+                </view>
+                  
+            </view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                        <view class="weui-article__h1">位置</view>
+            <view class="weui-article__p">
+                      {{item.serviceLoc}}</view>
+                </view>
+               
+            </view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                        <view class="weui-article__h1">自助设施或人工服务</view>
+            <view class="weui-article__p">
+                        {{item.isManual}}</view>
+                       
+                         
+                </view>
+            </view>
+            
+        </view>
+    </view>
+</view>
+</block> 
+</view>
+ <!-- <block wx:else>
+<view class="page">
+    <view class="weui-msg">
+        <view class="weui-msg__icon-area">
+            <icon type="warn" size="93"></icon>
+        </view>
+        <view class="weui-msg__text-area">
+            <view class="weui-msg__title">未找到相关内容</view>
+            <view class="weui-msg__desc">您查询的服务设施尚未添加，敬请谅解</view>
+        </view>
+        </view>
+        </view>
+        </block>  -->

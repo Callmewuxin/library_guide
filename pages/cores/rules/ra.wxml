@@ -1,0 +1,21 @@
+<!--pages/cores/rules/ra.wxml-->
+<view class="bc_dvd"></view>
+  <view class="section__title bc_title">
+    入馆注意事项</view>
+  <view class="bc_dvd"></view>
+  <view class="bc_dvd2"></view>
+  <view class="flex-wrp" style="flex-direction:column;">
+    <view class="flex-item bc_green"> 
+    1) 校内读者凭本人有效校园卡刷卡入馆；校外人员来馆，须联系相关人员并出示本人有效证件，在值班处登记后进馆。 </view>
+  <view class="flex-item bc_green"> 2)读者应遵守图书馆规章制度，爱护文献资料和设施设备。 </view>
+  <view class="flex-item bc_green"> 3) 图书馆为重点防火单位，严禁在馆内任何地方吸烟、用火。 </view>
+  <view class="flex-item bc_green"> 4)  进入图书馆应注意着装整齐、举止文明，礼貌待人，禁止有碍观瞻行为。 </view>
+  <view class="flex-item bc_green"> 5) 保持图书馆内安静，手机或电脑等设备调至静音。禁止在馆内喧哗、朗读或大声接打手机。 </view>
+  <view class="flex-item bc_green"> 6) 遵守并维护馆内秩序，不用物品抢占阅览座位，离馆时带离个人物品(包括书籍),并把椅子放回原处；禁止携带食品进入图书馆，保持馆内清洁卫生，禁止随地吐痰，乱扔废弃物。 </view>
+  <view class="flex-item bc_green"> 7) 未经图书馆同意，不准在馆内随意张贴各类海报，或使用个人携带的设备进行摄像及其他活动。 </view>
+ <view class="flex-item bc_green">8) 禁止携带未办理借阅手续的图书或期刊出馆。 </view>
+ <view class="flex-item bc_green">9) 禁止在图书馆内私拉电线，比如插座、台灯及电暖宝等物品。 </view>
+ <view class="flex-item bc_green">10) 出馆时所有人员一律走监测仪通道。如遇监测器报警，请主动配合工作人员的检查。 </view>
+ <view class="flex-item bc_green">11) 对违反上述规定的读者，任何人有权批评和制止其行为。情节严重者报学校有关部门进行处理。 </view>
+    </view>
+    
