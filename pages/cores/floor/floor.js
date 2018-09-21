@@ -6,7 +6,12 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    floor: [
+      { url: 'http://111.231.67.97/images/cores/2floor.jpg' },
+      { url: 'http://111.231.67.97/images/cores/3floor1.jpg' },
+      { url: 'http://111.231.67.97/images/cores/3floor2.jpg' },
+      { url: 'http://111.231.67.97/images/cores/3floor3.jpg' },
+    ],
   },
 
   /**

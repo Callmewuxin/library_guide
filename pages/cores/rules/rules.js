@@ -1,102 +1,16 @@
-// pages/cores/rules.js
-var app = getApp();
 Page({
-
-  /**
-   * 页面的初始数据
-   */
   data: {
-  
-  },
+    grids: [
+      {url:"ra", name:"注意事项"},
+      {url:"rb", name:"借阅证"},
+      {url:"rc", name:"违规处理"},
+      {url:"rd", name:"座位管理"},
+      {url:"re", name:"电子阅览室"},
+      {url:"rf", name:"书包箱"},
+      {url:"rg", name:"借还图书"},
+      {url:"rh", name:"电子资源"},
+      {url:"ri", name:"会议室"},
+    ]
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-  
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-  
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-  
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-  
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-  
-  },
-   gotoa: function () {
-    wx.navigateTo({
-      url: '../rules/ra',
-    })
-  },
-   gotob: function () {
-     wx.navigateTo({
-       url: '../rules/rb',
-     })
-   },
-    gotoc: function () {
-     wx.navigateTo({
-       url: '../rules/rc',
-     })
-   },
-    gotod: function () {
-      wx.navigateTo({
-        url: '../rules/rd',
-      })
-    },
-    gotoe: function () {
-      wx.navigateTo({
-        url: '../rules/re',
-      })
-    },
-    gotof: function () {
-      wx.navigateTo({
-        url: '../rules/rf',
-      })
-    },
-    gotog: function () {
-      wx.navigateTo({
-        url: '../rules/rg',
-      })
-    },
-})
+  }
+});

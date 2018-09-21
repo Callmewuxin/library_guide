@@ -1,24 +1,65 @@
-<!--pages/cores/rules.wxml-->
-<view class="section">
-<view class="bc_dvd"></view>
-  <view class="section__title bc_title">
-  图书馆规章制度</view>
-  <view class="bc_dvd"></view>
-  <view class="bc_dvd2"></view>
-  <view class="flex-wrp" style="flex-direction:column;">
-    <view class="flex-item bc_green"><button bindtap='gotoa'>入馆注意事项</button></view>
-    <view class="bch"></view>
-    <view class="flex-item bc_red"><button bindtap='gotob'>借阅规则</button></view>
-    <view class="bch"></view>
-    <view class="flex-item bc_blue"><button bindtap='gotoc'>违规处理</button></view>
-    <view class="bch"></view>    
-    <view class="flex-item bc_blue"><button bindtap='gotod'>阅览座位管理规则</button></view>
-        <view class="bch"></view>        
-    <view class="flex-item bc_blue"><button bindtap='gotoe'>电子阅览室规则</button></view>
-        <view class="bch"></view>     
-         <view class="flex-item bc_blue"><button bindtap='gotof'>书包箱使用规则</button></view>
-        <view class="bch"></view>  
-         <view class="flex-item bc_blue"><button bindtap='gotog'>会议室研讨室等使用规则</button></view>
-        <view class="bch"></view>                 
-  </view>
+<view class="page">
+    <view class="page__hd">
+        <view class="page__title">规章制度</view>
+    </view>
+    <view class="page__bd">
+        <view class="weui-grids">
+            <block wx:for="{{grids}}" wx:key="*this">
+            <block wx:if="{{index==0}}">
+                <navigator url="/pages/cores/rules/ra/ra" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/images/icon_tabbar.png" />
+                    <view class="weui-grid__label">{{item.name}}</view>
+                </navigator>
+                </block>
+                <block wx:if="{{index==1}}">
+                <navigator url="/pages/cores/rules/rb/rb" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/images/icon_tabbar.png" />
+                    <view class="weui-grid__label">{{item.name}}</view>
+                </navigator>
+                </block>
+                <block wx:if="{{index==2}}">
+                <navigator url="/pages/cores/rules/rc/rc" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/images/icon_tabbar.png" />
+                    <view class="weui-grid__label">{{item.name}}</view>
+                </navigator>
+                </block>
+                <block wx:if="{{index==3}}">
+                <navigator url="/pages/cores/rules/rd/rd" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/images/icon_tabbar.png" />
+                    <view class="weui-grid__label">{{item.name}}</view>
+                </navigator>
+                </block>
+                    <block wx:if="{{index==4}}">
+                <navigator url="/pages/cores/rules/re/re" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/images/icon_tabbar.png" />
+                    <view class="weui-grid__label">{{item.name}}</view>
+                </navigator>
+                </block>
+                 <block wx:if="{{index==5}}">
+                <navigator url="/pages/cores/rules/rf/rf" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/images/icon_tabbar.png" />
+                    <view class="weui-grid__label">{{item.name}}</view>
+                </navigator>
+                </block>
+                 <block wx:if="{{index==6}}">
+                <navigator url="/pages/cores/rules/rg/rg" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/images/icon_tabbar.png" />
+                    <view class="weui-grid__label">{{item.name}}</view>
+                </navigator>
+                </block> 
+                 <block wx:if="{{index==7}}">
+                <navigator url="/pages/cores/rules/rh/rh" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/images/icon_tabbar.png" />
+                    <view class="weui-grid__label">{{item.name}}</view>
+                </navigator>
+                </block>     
+                 <block wx:if="{{index==8}}">
+                <navigator url="/pages/cores/rules/ri/ri" class="weui-grid" hover-class="weui-grid_active">
+                    <image class="weui-grid__icon" src="/images/icon_tabbar.png" />
+                    <view class="weui-grid__label">{{item.name}}</view>
+                </navigator>
+                </block>     
+                </block>
+        </view>
+    </view>
 </view>

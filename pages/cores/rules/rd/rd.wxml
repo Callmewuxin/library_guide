@@ -1,0 +1,19 @@
+<!--pages/cores/rules/ra.wxml-->
+<view class="page">
+    <view class="page__hd">
+        <view class="page__desc">座位管理</view>
+    </view>
+    <view class="line"></view>
+<view class="page__bd">
+        <view class="weui-article">
+        <block wx:for="{{rd}}">
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                     <view class="weui-article__h1">{{item.id}}</view>
+            <view class="weui-article__p">{{item.content}}</view>
+                </view>
+            </view>
+            </block>
+            </view>
+        </view>
+    </view>    

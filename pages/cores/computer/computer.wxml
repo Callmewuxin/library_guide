@@ -1,14 +1,45 @@
-<view class='viewclass'>{{text}}</view>
-<view class='text'>{{text1}}</view>
-<view class='text'>{{text2}}</view>
-<image class="image" src="http://111.231.67.97/images/cores/jf3f.jpg"></image>
-<view class='imagetext'>{{image1}}</view>
-<text class='text'>\n</text>
-<view class='text'>{{text3}}</view>
-<image class="image2" src="http://111.231.67.97/images/cores/jf4f.jpg"></image>
-<view class='imagetext'>{{image2}}</view>
-<text class='text'>\n</text>
-<view class='text'>{{text4}}</view>
-<view class='text'>{{text5}}</view>
-<image class="image" src="http://111.231.67.97/images/cores/jfrules.jpg"></image>
-<view class='imagetext'>{{image3}}</view>
+<swiper class='swiper' indicator-dots='true' autoplay='true' interval='5000' duration='1000'>
+  <block wx:for='{{computer}}' wx:for-index='index'>
+    <swiper-item>
+      <image src='{{item.url}}' class='slide-image' mode='aspectFill'></image>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="page">
+    <view class="page__hd">
+        <view class="page__desc">{{text1}}</view>
+    </view>
+    <view class="line"></view>
+<view class="page__bd">
+        <view class="weui-article">
+
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                     <view class="weui-article__h1">Third Floor</view>
+            <view class="weui-article__p">
+                       {{text2}}</view>
+                       <view class="weui-article__p">
+                       {{image1}}</view>
+                </view>
+            </view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                     <view class="weui-article__h1">Fourth Floor</view>
+            <view class="weui-article__p">
+                       {{text3}}</view>
+                       <view class="weui-article__p">
+                       {{image2}}</view>
+                </view>
+            </view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                     <view class="weui-article__h1">注意事项</view>
+            <view class="weui-article__p">
+                       {{text4}}</view>
+                       <view class="weui-article__p">
+                       {{image3}}</view>
+                </view>
+         </view>
+            </view>
+        </view>
+    </view>    

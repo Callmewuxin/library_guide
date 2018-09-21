@@ -6,7 +6,10 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+  read:[
+    { url:"http://111.231.67.97/images/b.jpg"},
+    { url:"http://111.231.67.97/images/a.jpg"},
+  ]
   },
 
   /**

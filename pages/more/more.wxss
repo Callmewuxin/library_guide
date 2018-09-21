@@ -1,4 +1,4 @@
-@import "/wxSearch/wxSearch.wxss";
+@import "../../wxSearchView/wxSearchView.wxss";
 page,
 .page,
 .page__bd{

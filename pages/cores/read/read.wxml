@@ -1,14 +1,40 @@
 <!--pages/cores/read.wxml-->
-<view  class='result'>
-      <text space="nbsp">找到可使用的电脑→在电脑上输入想要借阅的书籍</text>
+<swiper class='swiper' indicator-dots='true' autoplay='true' interval='5000' duration='1000'>
+  <block wx:for='{{read}}' wx:for-index='index'>
+    <swiper-item>
+      <image src='{{item.url}}' class='slide-image' mode='aspectFill'></image>
+    </swiper-item>
+  </block>
+</swiper>
+<view class="page">
+    <view class="page__hd">
+        <view class="page__desc">图书馆一楼借书机使用流程</view>
     </view>
-    <image class="image_f1" src="http://111.231.67.97/images/b.jpg" mode="aspectFill">
-</image>
-    <view  class='result'>
-      <text space="nbsp">点击搜索后根据指引找到想借的书</text>
-    </view>
-    <view  class='result'>
-      <text space="nbsp">放到借书机上根据提示操作</text>
-    </view>
-    <image class="image_f2" src="http://111.231.67.97/images/a.jpg" mode="widthfix">
-</image>
+    <view class="line"></view>
+<view class="page__bd">
+        <view class="weui-article">
+
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                     <view class="weui-article__h1">First Step</view>
+            <view class="weui-article__p">
+                       找到可使用的电脑→在电脑上输入想要借阅的书籍</view>
+                </view>
+            </view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                     <view class="weui-article__h1">Second Step</view>
+            <view class="weui-article__p">
+                       点击搜索后根据指引找到想借的书</view>
+                </view>
+            </view>
+            <view class="weui-article__section">
+                <view class="weui-article__section">
+                     <view class="weui-article__h1">Third Step</view>
+            <view class="weui-article__p">
+                       放到借书机上根据提示操作</view>
+                </view>
+         </view>
+            </view>
+        </view>
+    </view>    
